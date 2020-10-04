@@ -1,8 +1,8 @@
 #include<stdio.h>
-void main
+int main()
  {
-  int num,fact=1,i;
-  printf("enter the number");
+  int num,fact=1;
+  printf("enter the number\n");
   scanf("%d",&num);
   while(num!=0)
     {
